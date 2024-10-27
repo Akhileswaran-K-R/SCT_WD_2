@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #8c52ff;
+    background: #145a32;
 }
 
 .container {
@@ -30,7 +30,7 @@ body {
     background: #fff;
     left: 4%;
     font-family: 'Roboto mono', monospace;
-    color: #8c52ff;
+    color: #145a32;
     font-size: 30px;
     padding: 40px;
     display: flex;
@@ -60,7 +60,7 @@ button {
 }
 
 .start-button {
-  background-color: #8c52ff;
+  background-color: #145a32;
 }
 
 .pause-button {
@@ -75,10 +75,23 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
-.stop-button{
-  background-color: #e35209;
+.lap-timings{
+    font-family: 'Roboto mono', monospace;
+    color: rgb(79, 62, 62);
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+.overall-time{
+    color: #145a32;
 }
 
-.visible{
-  opacity: 1;
+.lap-header {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
